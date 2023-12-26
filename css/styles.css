@@ -38,6 +38,10 @@ main {
 /* ---------------------Header-------------------------- */
 .header-container{
     max-width: 1440px;
+    padding-left: 156px;
+    padding-right: 156px;
+    margin-left: 12px;
+    margin-right: 12px;
     gap: 332px;
     border-bottom: 1px solid #E7E9FC;
     background: #FFF;
@@ -59,16 +63,10 @@ main {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     flex-shrink: 0;
-    width: 44px;
-    height: 21px;
-    margin-left: 156px;
+    margin-right: 76px;
 }
 .header-logos {
     color: #2e2f42;
-    flex-shrink: 0;
-    width: 71px;
-    height: 21px;
-    margin-right: 76px;
 }
 
 .navigation-list {
@@ -131,10 +129,10 @@ main {
 /* ------------------Hero-------------------------- */
 .hero-container {
     max-width: 1440px;
-    padding-left: ;
-    padding-right: ;
-    margin-left: 0;
-    margin-right: 0; 
+    padding-left: 472px;
+    padding-right: 472px;
+    margin-left: 12px;
+    margin-right: 12px; 
 }
 .section-hero {
     background: #2e2f42;
@@ -146,7 +144,6 @@ main {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    padding: 188px 472px 32px 472px;
 }
 .button {
     background: #4d5ae5;
@@ -163,8 +160,6 @@ main {
     padding: 16px 32px;
     align-items: flex-start;
     gap: 10px;
-    margin: 32px 604px 168px 603px;
-
 }
 .button:hover {
     background: #404bbf;
@@ -177,8 +172,6 @@ main {
 /* ------------------advantages-------------------- */
 .adv-container {
     max-width: 1440px;
-    padding-left: ;
-    padding-right: ;
     margin-left: 0;
     margin-right: 0; 
 }
@@ -231,8 +224,6 @@ main {
 /* ------------------Our Team---------------------- */
 .team-container {
     max-width: 1440px;
-    padding-left: ;
-    padding-right: ;
     margin-left: 0;
     margin-right: 0; 
 }
@@ -291,10 +282,9 @@ main {
 /* ------------------Portfolio--------------------- */
 .folio-container {
     max-width: 1440px;
-    padding-left: ;
-    padding-right: ;
     margin-left: 0;
     margin-right: 0;
+    padding-bottom: 120px;
 }
 .section-folio-title {
     color:  #2E2F42;
