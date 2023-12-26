@@ -12,7 +12,37 @@ ul {
 li {
     list-style-type: none;
 }
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+ul, ol {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+img {
+	display: block;
+}
+.page-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex-grow: 1;
+}
+
 /* ---------------------Header-------------------------- */
+.header-container{
+    max-width: 100%;
+    padding-left: ;
+    padding-right: ;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+}
 .header {
     background:#FFF;
 }
@@ -24,16 +54,32 @@ li {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    flex-shrink: 0;
+    width: 44px;
+    height: 21px;
+    margin-left: 156px;
 }
 .header-logos {
-    color: #2e2f42
+    color: #2e2f42;
+    flex-shrink: 0;
+    width: 71px;
+    height: 21px;
+    margin-right: 76px;
 }
+
 .navigation-list {
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5; 
     letter-spacing: 0.02em;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+.navigation-item {
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .navigation-link {
     color: #2E2F42;
@@ -49,8 +95,13 @@ li {
     color: #404bbf;
     text-decoration: underline;
 }
+.address-list {
+    display: inline-flex;
+    align-items: flex-end;
+    gap: 40px;
+}
 .address {
-    font-style: normal;
+    font-style: normal; 
 }
 .address-link {
     color: #434455;
@@ -68,6 +119,13 @@ li {
 }
 /* ------------------------------------------------ */
 /* ------------------Hero-------------------------- */
+.hero-container {
+    max-width: 100%;
+    padding-left: ;
+    padding-right: ;
+    margin-left: 0;
+    margin-right: 0; 
+}
 .section-hero {
     background: #2e2f42;
 }
@@ -95,8 +153,24 @@ li {
 .button:focus {
     background: #404bbf;
 }
+
 /* ------------------------------------------------ */
 /* ------------------advantages-------------------- */
+.adv-container {
+
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 .section-advantages {
     background: #fff;
 }
@@ -116,6 +190,9 @@ li {
 }
 /* ------------------------------------------------ */
 /* ------------------Our Team---------------------- */
+.team-container {
+
+}
 .section-team {
     background: #f4f4fd;
 }
@@ -147,6 +224,9 @@ li {
 }
 /* ------------------------------------------------ */
 /* ------------------Portfolio--------------------- */
+.folio-container {
+
+}
 .section-folio-title {
     color:  #2E2F42;
     text-align: center;
@@ -175,6 +255,9 @@ li {
 }
 /* ------------------------------------------------ */
 /* ------------------Footer------------------------ */
+.footer-container {
+
+}
 .basement {
     background: #2e2f42;
 }
