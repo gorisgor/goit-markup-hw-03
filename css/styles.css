@@ -12,6 +12,7 @@ ul {
 li {
     list-style-type: none;
 }
+/* ---------------------Header-------------------------- */
 .header {
     background:#FFF;
 }
@@ -23,6 +24,9 @@ li {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+.header-logos {
+    color: #2e2f42
 }
 .navigation-list {
     color: #2E2F42;
@@ -62,6 +66,8 @@ li {
     color: #404bbf;
     text-decoration: underline;
 }
+/* ------------------------------------------------ */
+/* ------------------Hero-------------------------- */
 .section-hero {
     background: #2e2f42;
 }
@@ -89,6 +95,8 @@ li {
 .button:focus {
     background: #404bbf;
 }
+/* ------------------------------------------------ */
+/* ------------------advantages-------------------- */
 .section-advantages {
     background: #fff;
 }
@@ -106,6 +114,8 @@ li {
     line-height: 1.5; 
     letter-spacing: 0.02em;
 }
+/* ------------------------------------------------ */
+/* ------------------Our Team---------------------- */
 .section-team {
     background: #f4f4fd;
 }
@@ -135,6 +145,8 @@ li {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+/* ------------------------------------------------ */
+/* ------------------Portfolio--------------------- */
 .section-folio-title {
     color:  #2E2F42;
     text-align: center;
@@ -161,6 +173,8 @@ li {
     line-height: 1.5; 
     letter-spacing: 0.02em;
 }
+/* ------------------------------------------------ */
+/* ------------------Footer------------------------ */
 .basement {
     background: #2e2f42;
 }
