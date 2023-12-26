@@ -36,9 +36,9 @@ main {
 
 /* ---------------------Header-------------------------- */
 .header-container{
-    max-width: 100%;
-    padding-left: ;
-    padding-right: ;
+    max-width: 1440px;
+    padding-left: 0;
+    padding-right: 0;
     margin-left: 0;
     margin-right: 0;
     display: flex;
@@ -57,7 +57,7 @@ main {
     flex-shrink: 0;
     width: 44px;
     height: 21px;
-    margin-left: 156px;
+    margin-left: 156;
 }
 .header-logos {
     color: #2e2f42;
@@ -78,8 +78,7 @@ main {
     gap: 40px;
 }
 .navigation-item {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    width: calc((100% - 48px) / 3);
 }
 .navigation-link {
     color: #2E2F42;
@@ -99,6 +98,9 @@ main {
     display: inline-flex;
     align-items: flex-end;
     gap: 40px;
+}
+.address-item {
+    
 }
 .address {
     font-style: normal; 
@@ -146,6 +148,12 @@ main {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    width: 169px;
+    height: 56px;
+    padding: 16px, 32px, 16px, 32px;
+    border-radius: 4px;
+    gap: 10px;
+
 }
 .button:hover {
     background: #404bbf;
