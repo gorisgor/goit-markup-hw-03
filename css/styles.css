@@ -29,6 +29,10 @@ ol {
   margin-bottom: 0;
   padding-left: 0;
 }
+img {
+	display: block;
+	max-width: 100%;
+}
 main {
   flex-grow: 1;
 }
@@ -58,10 +62,13 @@ main {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding-right: 72px;
+  padding-top: 25.5px;
+  padding-bottom: 25.5px;
 }
 .header-logos {
   color: #2e2f42;
+  padding-top: 25.5px;
+  padding-bottom: 25.5px;
 }
 
 .navigation-list {
@@ -77,6 +84,7 @@ main {
   padding-bottom: 24px;
 }
 .navigation-item {
+  width: calc((100% - 80px) / 3);
 }
 .navigation-link {
   color: #2e2f42;
@@ -100,6 +108,7 @@ main {
   padding-bottom: 24px;
 }
 .address-item {
+  width: calc((100% - 40px) / 2);
 }
 .address {
   font-style: normal;
