@@ -40,9 +40,16 @@ main {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  max-width: 1440;
+  max-width: 1158;
   margin-left: 15px;
   margin-right: 15px;
+}
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  padding-top: 120px;
+  padding-top: 120px;
 }
 /* ---------------------Header-------------------------- */
 .header-container {
@@ -54,6 +61,8 @@ main {
 }
 .header {
   background: #fff;
+  border-bottom: 1px solid #E7E9FC;
+  background: #FFF;
 }
 .header-logo {
   color: #4d5ae5;
@@ -135,7 +144,8 @@ main {
   flex-direction: column;
   padding-left: 457px;
   padding-right: 457px;
-  height: 600px;
+  padding-top: 188px;
+  padding-bottom: 188px;
   align-items: center;
 }
 .section-hero {
@@ -148,7 +158,6 @@ main {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  padding-top: 188px;
   padding-bottom: 48px;
 }
 .button {
@@ -179,6 +188,7 @@ main {
   padding-left: 156px;
   padding-right: 156px;
   align-content: center;
+  background: #fff;
 }
 .section-adv-title {
 }
@@ -198,8 +208,6 @@ main {
   display:flex;
   flex-wrap: wrap;
   gap: 24px;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 .section-adv-navigation-item {
   display:flex;
@@ -207,7 +215,7 @@ main {
   width: calc((100% - 72px) / 4);
 }
 .section-advantages {
-  background: #fff;
+  
 }
 .section-adv-subtitle {
   color: #2e2f42;
@@ -232,10 +240,10 @@ main {
   flex-direction: column;
   padding-left: 156px;
   padding-right: 156px;
+  background: #f4f4fd;
 }
 .section-team {
-  background: #f4f4fd;
-  display:flex;
+  
 }
 .section-team-title {
   color: #2e2f42;
@@ -245,7 +253,6 @@ main {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-top: 120px;
   padding-bottom: 72px;
 }
 .section-team-navigation {
@@ -258,7 +265,6 @@ main {
   display:flex;
   flex-direction: column;
   width: calc((100% - 72px) / 4);
-  margin-bottom: 120px;
 }
 .section-team-subtitle {
   color: #2e2f42;
@@ -288,9 +294,6 @@ main {
   padding-left: 156px;
   padding-right: 156px;
 }
-.section-folio {
-  display: flex;
-}
 .section-folio-title {
   color: #2e2f42;
   text-align: center;
@@ -299,7 +302,6 @@ main {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-top: 120px;
   padding-bottom: 72px;
 }
 .section-folio-navigation {
@@ -314,7 +316,6 @@ main {
   display:flex;
   flex-direction: column;
   width: calc((100% - 48px) / 3);
-  margin-bottom: 120px;
 }
 .section-folio-subtitle {
   color: #2e2f42;
