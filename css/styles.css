@@ -77,8 +77,7 @@ img {
   margin-right: 332px;
 }
 .navigation-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  
 }
 .navigation-link {
   color: #2e2f42;
@@ -86,6 +85,8 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .navigation-link:hover {
   color: #404bbf;
