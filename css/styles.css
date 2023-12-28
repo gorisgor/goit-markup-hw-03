@@ -32,7 +32,6 @@ main {
 }
 .container {
   display: flex;
-  flex-direction: column;
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -118,6 +117,7 @@ main {
 .section-hero {
   background: #2e2f42;
   padding: 188px 0;
+  
 }
 .hero-title {
   color: #fff;
@@ -126,7 +126,7 @@ main {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  max-width: 496px;
+  width: 496px;
   margin-bottom: 48px;
 }
 .button {
@@ -143,7 +143,6 @@ main {
   letter-spacing: 0.04em;
   cursor: pointer;
   border-radius: 4px;
-  margin: 0 636px;
 }
 .button:hover {
   background: #404bbf;
@@ -199,7 +198,6 @@ main {
 
 .section-team {
   background: #f4f4fd;
-  display: flex;
   padding: 120px 0
 }
 .section-team-title {
