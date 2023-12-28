@@ -37,6 +37,7 @@ main {
 }
 .container {
   display: flex;
+  flex-wrap: wrap;
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -308,6 +309,7 @@ main {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   display: inline-block;
+  padding: 8px;
   margin-bottom: 16px;
 }
 .basement-logoz {
@@ -324,5 +326,6 @@ main {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  max-width: 264px
+  max-width: 264px;
+  margin-bottom: 100px;
 }
