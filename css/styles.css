@@ -27,14 +27,6 @@ img {
   display: block;
   max-width: 100%;
 }
-.wraper {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-main {
-  flex-grow: 1;
-}
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -75,7 +67,8 @@ main {
   margin-right: 332px;
 }
 .navigation-item {
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .navigation-link {
   color: #2e2f42;
@@ -301,6 +294,8 @@ main {
   padding: 100px 0;
 }
 .footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -308,9 +303,6 @@ main {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  display: inline-block;
-  padding: 8px;
-  margin-bottom: 16px;
 }
 .basement-logoz {
   color: #f4f4fd;
@@ -327,5 +319,4 @@ main {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
-  margin-bottom: 100px;
 }
