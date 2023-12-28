@@ -30,34 +30,17 @@ img {
 main {
   flex-grow: 1;
 }
-.page-container {
-  min-height: 100vh;
+.container {
   display: flex;
   flex-direction: column;
-  max-width: 1158;
-  padding-left: 15px;
-  padding-right: 15px;
+  max-width: 1158px;
   margin: 0 auto;
-}
-.section {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-content: center;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 0 15px;
 }
 /* ---------------------Header-------------------------- */
-.header-container {
-  display: flex;
-  flex-wrap: wrap;
-  padding-left: 156px;
-  padding-right: 156px;
-}
+
 .header {
-  background: #fff;
   border-bottom: 1px solid #e7e9fc;
-  background: #fff;
 }
 .header-logo {
   color: #4d5ae5;
@@ -67,15 +50,14 @@ main {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .header-logos {
   color: #2e2f42;
 }
 .navigation {
-  display: flex;
-  gap: 76px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  display:flex;
+  align-items: center;  
 }
 .navigation-list {
   color: #2e2f42;
@@ -83,11 +65,12 @@ main {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  display: flex;
+  display:flex;
   gap: 40px;
-  margin-right: 302px;
+  margin-right: 332px;
 }
 .navigation-item {
+  padding: 24px 0;
   width: calc((100% - 80px) / 3);
 }
 .navigation-link {
@@ -107,10 +90,9 @@ main {
 .address-list {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .address-item {
+  padding: 24px 0;
   width: calc((100% - 40px) / 2);
 }
 .address {
@@ -132,17 +114,10 @@ main {
 }
 /* ------------------------------------------------ */
 /* ------------------Hero-------------------------- */
-.hero-container {
-  display: flex;
-  flex-direction: column;
-  padding-left: 457px;
-  padding-right: 457px;
-  padding-top: 188px;
-  padding-bottom: 188px;
-  align-items: center;
-}
+
 .section-hero {
   background: #2e2f42;
+  padding: 188px 0;
 }
 .hero-title {
   color: #fff;
@@ -151,9 +126,14 @@ main {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  padding-bottom: 48px;
+  max-width: 496px;
+  margin-bottom: 48px;
 }
 .button {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
   background: #4d5ae5;
   color: #fff;
   font-family: Roboto, sans-serif;
@@ -163,9 +143,7 @@ main {
   letter-spacing: 0.04em;
   cursor: pointer;
   border-radius: 4px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  padding: 16px 32px;
-  gap: 10px;
+  margin: 0 636px;
 }
 .button:hover {
   background: #404bbf;
@@ -176,15 +154,10 @@ main {
 
 /* ------------------------------------------------ */
 /* ------------------advantages-------------------- */
-.adv-container {
-  display: flex;
-  padding-left: 156px;
-  padding-right: 156px;
-  align-content: center;
-  background: #fff;
-}
+
 .section-adv {
   background: #fff;
+  padding: 120px 0
 }
 .visually-hidden {
   position: absolute;
@@ -204,8 +177,6 @@ main {
   gap: 24px;
 }
 .section-adv-navigation-item {
-  display: flex;
-  flex-direction: column;
   width: calc((100% - 72px) / 4);
 }
 .section-adv-subtitle {
@@ -214,7 +185,7 @@ main {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .section-adv-text {
   color: #434455;
@@ -225,16 +196,11 @@ main {
 }
 /* ------------------------------------------------ */
 /* ------------------Our Team---------------------- */
-.team-container {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  padding-left: 156px;
-  padding-right: 156px;
-  background: #f4f4fd;
-}
+
 .section-team {
   background: #f4f4fd;
+  display: flex;
+  padding: 120px 0
 }
 .section-team-title {
   color: #2e2f42;
@@ -244,18 +210,19 @@ main {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-bottom: 72px;
+  margin-bottom: 72px
 }
 .section-team-navigation {
   display: flex;
-  flex-wrap: wrap;
   gap: 24px;
 }
 .section-team-navigation-item {
   background: #ffffff;
-  display: flex;
-  flex-direction: column;
+  border-radius: 0px 0px 4px 4px;
   width: calc((100% - 72px) / 4);
+}
+.card-text {
+  padding: 32px 0;
 }
 .section-team-subtitle {
   color: #2e2f42;
@@ -264,8 +231,7 @@ main {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
-  padding-top: 32px;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .section-team-text {
   color: #434455;
@@ -274,19 +240,14 @@ main {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  padding-bottom: 32px;
 }
 /* ------------------------------------------------ */
 /* ------------------Portfolio--------------------- */
-.folio-container {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  padding-left: 156px;
-  padding-right: 156px;
-}
+
 .section-folio {
   background: #fff;
+  padding-top: 120px; 
+  padding-bottom: 120px;
 }
 .section-folio-title {
   color: #2e2f42;
@@ -296,21 +257,25 @@ main {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .section-folio-navigation {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
 }
 .section-folio-navigation-item {
   background: #ffffff;
-  border: 1px solid #e7e9fc;
   display: flex;
   flex-direction: column;
   width: calc((100% - 48px) / 3);
 }
-.image {
+.card-folio-text {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 .section-folio-subtitle {
   color: #2e2f42;
@@ -333,20 +298,10 @@ main {
 }
 /* ------------------------------------------------ */
 /* ------------------Footer------------------------ */
-.footer-container {
-  display: flex;
-  flex-direction: column;
-  padding-left: 156px;
-  padding-right: 156px;
-}
+
 .basement {
   background: #2e2f42;
-  display: flex;
-  flex-direction: column;
-  padding-top: 101.5px;
-  padding-right: 864px;
-  padding-bottom: 100px;
-  padding-left: 0;
+  padding: 100px 0;
 }
 .footer-logo {
   color: #4d5ae5;
@@ -356,7 +311,8 @@ main {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-bottom: 17.5px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .basement-logoz {
   color: #f4f4fd;
@@ -372,4 +328,5 @@ main {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px
 }
