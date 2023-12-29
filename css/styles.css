@@ -64,7 +64,8 @@ img {
 .navigation {
   display:flex;
   justify-content: space-between;
-  align-items: center; 
+  align-items: center;
+  margin-right: auto; 
 }
 .navigation-list {
   color: #2e2f42;
@@ -179,15 +180,15 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.section-adv-navigation {
+.section-advantages-navigation {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
 }
-.section-adv-navigation-item {
+.section-advantages-navigation-item {
   width: calc((100% - 72px) / 4);
 }
-.section-adv-subtitle {
+.section-advantages-subtitle {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
@@ -195,7 +196,7 @@ img {
   letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
-.section-adv-text {
+.section-advantages-text {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
