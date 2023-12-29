@@ -63,8 +63,9 @@ img {
 }
 .navigation {
   display:flex;
+  justify-content: space-between;
+  align-items: center; 
   
-  align-items: center;  
 }
 .navigation-list {
   color: #2e2f42;
@@ -74,10 +75,6 @@ img {
   letter-spacing: 0.02em;
   display:flex;
   gap: 40px;
-  margin-right: 0 auto;
-}
-.navigation-item {
-  
 }
 .navigation-link {
   color: #2e2f42;
@@ -281,7 +278,6 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 .section-folio-subtitle {
   color: #2e2f42;
