@@ -63,7 +63,7 @@ img {
 }
 .navigation {
   display:flex;
-  justify-content: space-between;
+  
   align-items: center;  
 }
 .navigation-list {
@@ -74,7 +74,7 @@ img {
   letter-spacing: 0.02em;
   display:flex;
   gap: 40px;
-  margin-right: 332px;
+  margin-right: 0 auto;
 }
 .navigation-item {
   
@@ -164,7 +164,7 @@ img {
 /* ------------------------------------------------ */
 /* ------------------advantages-------------------- */
 
-.section-adv {
+.section-advantages {
   background: #fff;
   padding: 120px 0
 }
