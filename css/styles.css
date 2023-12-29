@@ -65,7 +65,6 @@ img {
   display:flex;
   justify-content: space-between;
   align-items: center; 
-  
 }
 .navigation-list {
   color: #2e2f42;
@@ -75,6 +74,9 @@ img {
   letter-spacing: 0.02em;
   display:flex;
   gap: 40px;
+}
+.navigation-item {
+  width: calc((100% - 80px) / 3);
 }
 .navigation-link {
   color: #2e2f42;
